@@ -15,7 +15,7 @@ class Main {
     {
     for(int i=2;i<=sqrt(x);i++)
       {
-        if(x%2==0)
+        if(x%i==0)
         {
           System.out.println("nie pierwsza");
           y=1;
